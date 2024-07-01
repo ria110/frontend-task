@@ -1,0 +1,339 @@
+body {
+    background-color: rgb(242, 242, 242);
+    color: black;
+    font-family: "Kanit", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: max-content;
+}
+.main {
+    display: flex;
+    height: 100vh;
+    flex: 1;
+}
+header {
+    height: 150px;
+    width: 100%;
+    color: black;
+}
+.inner-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.main ul {
+    width: 700px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    list-style-type: none;
+}
+.main li{
+    margin-right: 25px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-style: normal;
+}
+.header ul {
+    width: 700px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    list-style-type: none;
+}
+.header li{
+    margin-right: 25px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+.header-search {
+     width: 400px;
+     display: flex;
+     justify-content: flex-end;
+     margin-right: 40px;
+}
+
+.left {
+   /*width: 360px;*/
+   width: 30%;
+   margin-left: 20px;
+}
+.demo {
+    height: 240px;
+    background-color: white;
+    border: 0.8px solid black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+h3 {
+    font-weight: 500;
+}
+.content {
+    padding-left: 25px;
+    padding-right: 25px;
+} 
+.content p {
+    padding-bottom: 20px;
+}
+.footer {
+    display: flex;
+    align-items: center; 
+    margin-top: auto;
+    padding-top: 15px;
+    
+}
+.footer a {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.footer .material-symbols-outlined {
+    margin-left: 8px; 
+    font-size: 20px; 
+    width: 16px; 
+    height: 16px; 
+}
+.connect {
+    background-color: rgb(197, 209, 249);
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 441px;
+}  
+ b {
+    font-weight: 500;
+}
+.email-input {
+   width: 100%;
+   border-radius: 25px;
+   border: none;
+   height: 50px;
+   border: 0.75px solid grey ;
+  
+}
+
+.subs-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 6px;
+    height: 40px; 
+    width: 100px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+
+.subscribe-form {
+    position: relative; 
+}
+
+
+.middle {
+    /*width: 520px;*/
+    width: 40%;
+    padding-left: 65px;
+}
+.article {
+    border-radius: 8px;
+    display: flex;
+    margin: 0 20px 40px 0;
+}
+.article span {
+    margin-left: 15px;
+    padding: 0 10px 10px 5px;
+}
+.article a {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.article img {
+    border-radius: 10px;
+    height: 106px;
+    width: 110px;
+}
+.article p {
+    font-size: 0.9rem;
+    align-items: bottom;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+.para a {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.right {
+    /*width: 300px;*/
+    width: 25%;
+    margin-right: 25px;
+}
+.animate img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+   
+}
+.animate {
+    background-color: black; 
+    border-radius: 10px;
+    margin: 0 0 100px 0;
+    
+}
+.animate p{
+    color: white;
+    padding: 0 20px 20px 25px;
+}
+.img2 {
+    margin-top: 20px;
+}
+
+.card {
+    height: 340px;
+    width: 300px;
+    border: 0.8px solid black;
+    border-radius: 10px;
+    display: block;
+    margin-top: 30px;
+}
+.cont {
+    padding: 25px;
+}
+.cont img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.main-footer {
+    width: 100%;
+    background-color: rgb(217, 219, 220);
+    height: 420px;
+    border-radius: 10px;
+    margin: 0;
+}
+.inner {
+    display: flex;
+    width: 100%;
+}
+.explore {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    margin-right: 80px;
+}
+
+.explore nav {
+    display: flex;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0 30px;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+h5 {
+    margin-top: 60px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.social {
+    margin-right: 305px;
+
+
+}
+.logos {
+    align-items: flex-end;
+    margin-right: 10px;
+}
+.logos img {
+   height: 35px;
+   width: 120px;
+   display: block;
+   margin: 1rem 0 0 auto;
+}
+.logos p {
+    margin: 150px 0 0 100px;
+    opacity: 0.8;
+}
+.logos i {
+    padding-right: 5px;
+}
+.patreon-box {
+    background-color: black;
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.patreon-box a {
+    color: white;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+.patreon-box img {
+    margin-left: 15px; 
+    width: 40px;
+    height: auto; 
+}
+a:hover {
+    color: blue;
+}
+.search-head {
+    border: none;
+}
+
+
+@media (max-width: 1220px) {
+    .left {
+        display: none;
+    }
+    .middle {
+        width: 70%;
+    } 
+}
+@media (max-width: 1065px) {
+    .header {
+        height: 265px;
+    }
+
+    .inner-header {
+        display: flex;
+        flex-direction: column;
+    }
+    .inner-header ul {
+        align-self: center;
+    }
+}
+@media (max-width: 960px) {
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    body {
+        width: 100%;
+    }
+}
